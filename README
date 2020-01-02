@@ -1,0 +1,6 @@
+voltGraph is a program written in Python 3.8 using PyQt5 and the PyQtGraph library to read input from an
+analog to digital converter (ADC), using an Arduino, and both graph, and store the data in real time. This is a useful
+program for reading older scientific instruments that may have broken displays, or substandard readouts.
+
+The voltageEmulator.py file is a random number generator to emulate a voltage readout for testing purposes. It is not
+necessary for running the program with an instrument, but is helpful for testing.
