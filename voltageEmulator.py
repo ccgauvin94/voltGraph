@@ -5,8 +5,8 @@ timePassed = 0.0
 
 
 def emulate():
-    voltage = random.uniform(-5, 5)
     global timePassed
+    voltage = random.uniform(-5, 5)
     timePassed = timePassed + 0.1
     time.sleep(0.1)
     return [timePassed, voltage]
