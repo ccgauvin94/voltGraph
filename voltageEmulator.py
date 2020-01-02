@@ -1,5 +1,7 @@
 import random
-import csv
 
-fileName = input('Please enter a file name: ')
-file = open(fileName)
+def emulate():
+    voltage = random.uniform(-5, 5)
+    return (voltage)
+
+
